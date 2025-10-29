@@ -1,9 +1,9 @@
 ---
 ---
 
-# lc-intelligentrobots's Website
+# Learning and Control for Intelligent Robots Lab's Website
 
-An engaging 1-3 sentence description of your lab.
+Our lab develops both foundational theory and practical tools in machine learning and control to make robots more intelligent.
 
 {% include section.html %}
 
