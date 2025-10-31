@@ -11,7 +11,7 @@ Our lab develops both foundational theory and practical tools in machine learnin
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our research is very interesting
 
 {%
   include button.html
@@ -26,7 +26,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/research.svg"
   link="research"
   title="Our Research"
   text=text
@@ -34,7 +34,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our teaching
 
 {%
   include button.html
@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Team
 
 {%
   include button.html
