@@ -11,7 +11,7 @@ Our lab develops both foundational theory and practical tools in machine learnin
 
 {% capture text %}
 
-Our research is very interesting
+Our research can be broadly organized into three parts: learning for control, control for learning, and applications to robotics.
 
 {%
   include button.html
