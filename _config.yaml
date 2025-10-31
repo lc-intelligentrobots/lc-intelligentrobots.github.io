@@ -1,9 +1,9 @@
 # site properties and page defaults
-title: lc-intelligentrobots
+title: Learning and Control for Intelligent Robots Lab
 subtitle: 
-description: An engaging 1-3 sentence description of your lab.
-header: images/background.jpg
-footer: images/background.jpg
+description: By integrating reinforcement learning with control theory, we build intelligent robots that can operate safely and autonomously in complex, dynamic environments.
+header: images/background.png
+footer: images/background.png
 proofer: false
 
 # site social media and other links
