@@ -2,8 +2,8 @@
 title: Learning and Control for Intelligent Robots Lab
 subtitle: 
 description: By integrating reinforcement learning with control theory, we build intelligent robots that can operate safely and autonomously in complex, dynamic environments.
-header: images/background.png
-footer: images/background.png
+# header: images/background.png
+# footer: images/background.png
 proofer: false
 
 # site social media and other links
