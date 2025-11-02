@@ -1,9 +1,14 @@
 ---
 ---
 
-# Learning and Control for Intelligent Robots Lab's Website
+## Learning and Control for Intelligent Robots Lab's Website
 
 Our lab develops both foundational theory and practical tools in machine learning and control to make robots more intelligent. On the one hand, reinforcement learning provides a data-driven way for robots to learn decision-making policies through interaction. On the other hand, control theory offers rigorous, reliable design principles that guarantee stability and performance. By combining them, we enable robots to operate safely, autonomously, and efficiently in complex, real-world environments.
+
+**We are actively recruiting undergraduate and graduate students to join our team. Please see {%
+link="contact"
+text="CONTACT"
+%} for more information.**
 
 {% include section.html %}
 
