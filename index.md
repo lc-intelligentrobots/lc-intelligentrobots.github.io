@@ -17,8 +17,8 @@ Our research can be broadly organized into three parts: learning for control, co
 
 {%
   include button.html
-  link="research"
-  text="See our publications"
+  link="projects"
+  text="See our projects"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
