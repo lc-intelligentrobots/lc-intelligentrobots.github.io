@@ -368,6 +368,7 @@
   <script src="/_scripts/tooltip.js"></script>
 
 
+<script>MathJax={"tex":{"inlineMath":[["$","$"],["\\(","\\)"]],"displayMath":[["$$","$$"],["\\[","\\]"]]},"svg":{"fontCache":"global"}}</script><script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
   <body>
@@ -472,13 +473,82 @@
 -->
 
 <h2 id="control-for-learning">Control for Learning</h2>
-<h1 id="robustness-of-gradient-methods-under-deterministic-noise">Robustness of gradient methods under deterministic noise</h1>
+<p>Short blurb: Many learning algorithms hinge on gradient-based methods—regression and classification, backpropagation, and policy gradients in reinforcement learning all rely on them. In data-driven settings, however, gradients are difficult to estimate accurately due to measurement noise, numerical error, and inexact subroutines. We address this by bringing control-theoretic ideas to learning, ensuring that gradient methods remain robust to these imperfections.</p>
 
-<h1 id="robustness-of-gradient-methods-under-stochastic-noise">Robustness of gradient methods under stochastic noise</h1>
+<h3 id="1-gradient-methods-under-deterministic-disturbances">1) [Gradient Methods under Deterministic Disturbances]</h3>
+<ul>
+  <li>
+<strong>Goal:</strong> Treat gradient-based algorithms as dynamical systems and connect the Polyak–Łojasiewicz (PL) inequalities to the input-to-state stability (ISS) of gradient-based methods.</li>
+  <li>
+<strong>Highlights:</strong>
+    <ul>
+      <li>Build PL-type inequalities with ISS: $\mathcal{K}_\infty$–PL $\Leftrightarrow$ ISS, $\mathcal{K}$–PL $\Leftrightarrow$ small-disturbance ISS, and $\mathcal{PD}$–PL $\Leftrightarrow$ integral ISS.</li>
+      <li>Show that policy-gradient algorithms for LQR and gradient-descent methods for logistic regression are small-disturbance ISS.</li>
+    </ul>
+  </li>
+</ul>
 
-<h2 id="learning-for-control">Learning for Control</h2>
+<h3 id="2-gradient-methods-under-stochastic-disturbances">2) [Gradient Methods under Stochastic Disturbances]</h3>
+<ul>
+  <li>
+<strong>Goal:</strong> Connect the Polyak–Łojasiewicz (PL) inequalities to the noise-to-state stability (NSS) of gradient-based methods.</li>
+  <li>
+<strong>Highlights:</strong>
+    <ul>
+      <li>Build PL-type inequalities with NSS: $\mathcal{K}_\infty$–PL $\Leftrightarrow$ NSS, $\mathcal{K}$–PL $\Leftrightarrow$ small-covariance NSS, and $\mathcal{PD}$–PL $\Leftrightarrow$ integral NSS.</li>
+      <li>Show that policy-gradient algorithms for LQR and gradient-descent methods for logistic regression are small-covariance ISS.</li>
+    </ul>
+  </li>
+</ul>
 
-<h2 id="applications-to-robotics">Applications to robotics</h2>
+<hr>
+<!-- 
+
+## Control for Learning
+Short blurb: We use control-theoretic tools (stability, robustness, constraints) to make learning reliable and interpretable.
+
+### 1) [Subpart C title]
+- **Goal:** …
+- **Keywords:** Lyapunov RL, safe RL, risk-sensitive, iISS/ISS.
+- **Highlights:** …
+- **Media:**  
+  `![plot](/assets/img/cfl-c.png)`
+
+### 2) [Subpart D title]
+- **Goal:** …
+- **Keywords:** system ID, closed-loop training, constraints.
+- **Highlights:** …
+- **Media:**  
+  `![demo gif](/assets/img/cfl-d.gif)`
+
+---
+
+## Applications to Robotics
+Short blurb: We validate algorithms on legged and humanoid robots, simulators, and multi-robot systems.
+
+### 1) [Subpart E title]
+- **Platform:** Unitree Go2 (or your platform)  
+- **Task:** e.g., rough-terrain locomotion / push recovery  
+- **Highlights:** …
+- **Media:**  
+  `![terrain](/assets/img/robotics-e.gif)`
+
+### 2) [Subpart F title]
+- **Platform:** Humanoid / Manipulation  
+- **Task:** e.g., whole-body balance / grasping  
+- **Highlights:** …
+- **Media:**  
+  `![manip](/assets/img/robotics-f.png)`
+
+### 3) [Subpart G title]
+- **Platform:** Multi-robot / AVs (CARLA)  
+- **Task:** e.g., merging, platooning, coordination  
+- **Highlights:** …
+- **Media:**  
+  `![carla](/assets/img/robotics-g.gif)`
+
+
+ -->
   </section>
 
 
