@@ -29,21 +29,21 @@ https://doi.org/10.1137/1.9781611977745.3) for details.
 ## Applications to Robotics
 **Short blurb:** We apply the tools from reinforcement learning to the balance control of wheeled-bipedal robots, autonomous vehicles, and autonomous bicycles.
 
-<video src="videos/WheeledBipedal.mp4"
-       controls autoplay muted loop playsinline
-       style="max-width:100%; height:auto;"></video>
+<!-- MP4s -->
+<video controls playsinline style="max-width:100%; height:auto;">
+  <source src="{{ '/videos/WheeledBipedal.mp4' | relative_url }}" type="video/mp4">
+  Sorry, your browser can’t play this video.
+</video>
 
-<video src="videos/AV1.gif"
-       controls autoplay muted loop playsinline
-       style="max-width:100%; height:auto;"></video>
+<video controls playsinline style="max-width:100%; height:auto;">
+  <source src="{{ '/videos/Bicycle.mp4' | relative_url }}" type="video/mp4">
+  Sorry, your browser can’t play this video.
+</video>
 
-<video src="videos/AV2.gif"
-       controls autoplay muted loop playsinline
-       style="max-width:100%; height:auto;"></video>
+<!-- GIFs (use <img>, not <video>) -->
+<img src="{{ '/videos/AV1.gif' | relative_url }}" alt="AV1 demo" style="max-width:100%; height:auto;">
+<img src="{{ '/videos/AV2.gif' | relative_url }}" alt="AV2 demo" style="max-width:100%; height:auto;">
 
-<video src="videos/Bicycle.mp4"
-       controls autoplay muted loop playsinline
-       style="max-width:100%; height:auto;"></video>
 
 ---
 <!-- 
