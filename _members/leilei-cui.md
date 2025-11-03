@@ -9,6 +9,7 @@ aliases:
 links:
   email: lcui@unm.edu
   linkedin: leilei-cui-0978b3179
+  google-scholar: RbczS_gAAAAJ
 ---
 
 Leilei Cui is an Assistant Professor in the Department of Mechanical Engineering at the University of New Mexico. He was a Postdoctoral Associate at the Massachusetts Institute of Technology (MIT) from June 2024 to July 2025 under the supervision of Prof. [Richard D. Braatz](http://web.mit.edu/braatzgroup/). He received his M.Sc. degree in Control Science and Engineering from Shanghai Jiao Tong University, China, in 2019, and his Ph.D. degree in Electrical Engineering from New York University in 2024 under the guidance of Prof. [Zhong-Ping Jiang](https://engineering.nyu.edu/faculty/zhong-ping-jiang).
