@@ -32,6 +32,7 @@ We have **one PhD opening for Fall 2026**. If you’re interested, please email 
 - a brief note on why you’re interested,
 - your CV, and
 - your transcript (include undergraduate/graduate grades).
+
 Please start with “Application PhD” in the subject line. 
 
 ### Research Projects for Master’s and Undergraduate Students
