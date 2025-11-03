@@ -1,5 +1,522 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
+- id: doi:10.1016/j.automatica.2024.111944
+  title: 'Learning-based adaptive optimal control of linear time-delay systems: A
+    value iteration approach'
+  authors:
+  - Leilei Cui
+  - Bo Pang
+  - "Miroslav Krsti\u0107"
+  - Zhong-Ping Jiang
+  publisher: Automatica
+  date: '2025-01-01'
+  link: https://doi.org/g98xmv
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.48550/arXiv.2505.02970
+  title: 'A Fully Data-Driven Value Iteration for Stochastic LQR: Convergence, Robustness
+    and Stability'
+  authors:
+  - Leilei Cui
+  - Zhong-Ping Jiang
+  - Petter N. Kolm
+  - "Gr\xE9goire G. Macqueron"
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/g98xmw
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1109/TCST.2025.3539216
+  title: Data-Driven Combined Longitudinal and Lateral Control for the Car Following
+    Problem
+  authors:
+  - Leilei Cui
+  - Sayan Chakraborty
+  - Kaan Ozbay
+  - Zhong-Ping Jiang
+  publisher: IEEE Transactions on Control Systems Technology
+  date: '2025-05-01'
+  link: https://doi.org/g98xmx
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.48550/arXiv.2507.02131
+  title: Perturbed Gradient Descent Algorithms are Small-Disturbance Input-to-State
+    Stable
+  authors:
+  - Leilei Cui
+  - Zhong-Ping Jiang
+  - Eduardo D. Sontag
+  - Richard D. Braatz
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/g98xmz
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.48550/arXiv.2503.23641
+  title: Remarks on the Polyak-Lojasiewicz inequality and the convergence of gradient
+    systems
+  authors:
+  - Arthur Castello B. de Oliveira
+  - Leilei Cui
+  - Eduardo D. Sontag
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/g98xm2
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.48550/arXiv.2509.24277
+  title: Small-Covariance Noise-to-State Stability of Stochastic Systems and Its Applications
+    to Stochastic Gradient Dynamics
+  authors:
+  - Leilei Cui
+  - Zhong-Ping Jiang
+  - Eduardo D. Sontag
+  publisher: arXiv
+  date: '2025-01-01'
+  link: https://doi.org/g98xm3
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1016/j.trb.2024.103026
+  title: 'Automated lane changing control in mixed traffic: An adaptive dynamic programming
+    approach'
+  authors:
+  - Sayan Chakraborty
+  - Leilei Cui
+  - Kaan Ozbay
+  - Zhong-Ping Jiang
+  publisher: 'Transportation Research Part B: Methodological'
+  date: '2024-09-01'
+  link: https://doi.org/g98xm4
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1016/j.sysconle.2024.105804
+  title: 'Small-disturbance input-to-state stability of perturbed gradient flows:
+    Applications to LQR problem'
+  authors:
+  - Leilei Cui
+  - Zhong-Ping Jiang
+  - Eduardo D. Sontag
+  publisher: Systems &amp; Control Letters
+  date: '2024-06-01'
+  link: https://doi.org/g98xm5
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1109/TAC.2023.3273786
+  title: 'Learning-Based Adaptive Optimal Control of Linear Time-Delay Systems: A
+    Policy Iteration Approach'
+  authors:
+  - Leilei Cui
+  - Bo Pang
+  - Zhong-Ping Jiang
+  publisher: IEEE Transactions on Automatic Control
+  date: '2024-01-01'
+  link: https://doi.org/g98xm6
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- title: 'Learning-Based Control: Tools and Applications to Robotics'
+  date: '2025-11-02'
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1109/TAC.2024.3397928
+  title: Robust Reinforcement Learning for Risk-Sensitive Linear Quadratic Gaussian
+    Control
+  authors:
+  - Leilei Cui
+  - "Tamer Ba\u015Far"
+  - Zhong-Ping Jiang
+  publisher: IEEE Transactions on Automatic Control
+  date: '2024-11-01'
+  link: https://doi.org/g98xm7
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1109/cdc49753.2023.10384286
+  title: Reinforcement-Learning-Based Risk-Sensitive Optimal Feedback Mechanisms of
+    Biological Motor Control
+  authors:
+  - Leilei Cui
+  - Bo Pang
+  - Zhong-Ping Jiang
+  publisher: 2023 62nd IEEE Conference on Decision and Control (CDC)
+  date: '2023-12-13'
+  link: https://doi.org/g98xm8
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1007/s11768-023-00163-w
+  title: A Lyapunov characterization of robust policy optimization
+  authors:
+  - Leilei Cui
+  - Zhong-Ping Jiang
+  publisher: Control Theory and Technology
+  date: '2023-08-01'
+  link: https://doi.org/g98xm9
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1137/1.9781611977745.3
+  title: Learning-Based Control of Continuous-Time Systems Using Output Feedback<sup>*</sup>
+  authors:
+  - Leilei Cui
+  - Zhong-Ping Jiang
+  publisher: 2023 Proceedings of the Conference on Control and its Applications (CT)
+  date: '2023-01-01'
+  link: https://doi.org/g98xnb
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- title: A Reinforcement Learning Look at Risk-Sensitive Linear Quadratic Gaussian
+    Control
+  publisher: Proceedings of The 5th Annual Learning for Dynamics and Control Conference
+  date: '2025-11-02'
+  link: https://proceedings.mlr.press/v211/cui23c.html
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1109/TIV.2023.3287131
+  title: A Unified Framework for Data-Driven Optimal Control of Connected Vehicles
+    in Mixed Traffic
+  authors:
+  - Tong Liu
+  - Leilei Cui
+  - Bo Pang
+  - Zhong-Ping Jiang
+  publisher: IEEE Transactions on Intelligent Vehicles
+  date: '2023-08-01'
+  link: https://doi.org/g98xnc
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1016/j.ifacol.2023.10.524
+  title: A Value Iteration Approach to Adaptive Optimal Control of Linear Time-Delay
+    Systems
+  authors:
+  - Leilei Cui
+  - Bo Pang
+  - Zhong-Ping Jiang
+  publisher: IFAC-PapersOnLine
+  date: '2023-01-01'
+  link: https://doi.org/g98xnd
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.23919/ACC55779.2023.10156108
+  title: Learning Adaptive Optimal Controllers for Linear Time-Delay Systems <sup>*</sup>
+  authors:
+  - Leilei Cui
+  - Bo Pang
+  - Zhong-Ping Jiang
+  publisher: 2023 American Control Conference (ACC)
+  date: '2023-05-31'
+  link: https://doi.org/g98xnf
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1016/j.ifacol.2023.10.912
+  title: Learning-Based Adaptive Optimal Output Regulation of Discrete-Time Linear
+    Systems
+  authors:
+  - Sayan Chakraborty
+  - Weinan Gao
+  - Leilei Cui
+  - Frank L. Lewis
+  - Zhong-Ping Jiang
+  publisher: IFAC-PapersOnLine
+  date: '2023-01-01'
+  link: https://doi.org/g98xng
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1007/s00422-022-00922-z
+  title: Human motor learning is robust to control-dependent noise
+  authors:
+  - Bo Pang
+  - Leilei Cui
+  - Zhong-Ping Jiang
+  publisher: Biological Cybernetics
+  date: '2022-03-03'
+  link: https://doi.org/g98xnh
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1109/LCSYS.2021.3091917
+  title: Asymptotic Trajectory Tracking of Autonomous Bicycles via Backstepping and
+    Optimal Control
+  authors:
+  - Leilei Cui
+  - Shuai Wang
+  - Zhengyou Zhang
+  - Zhong-Ping Jiang
+  publisher: IEEE Control Systems Letters
+  date: '2022-01-01'
+  link: https://doi.org/gt52mn
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1109/cdc45484.2021.9683024
+  title: Data-Driven Adaptive Optimal Control of Mixed-Traffic Connected Vehicles
+    in a Ring Road
+  authors:
+  - Tong Liu
+  - Leilei Cui
+  - Bo Pang
+  - Zhong-Ping Jiang
+  publisher: 2021 60th IEEE Conference on Decision and Control (CDC)
+  date: '2021-12-14'
+  link: https://doi.org/g98xnj
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1109/icar53236.2021.9659439
+  title: A Warehouse Scheduling Using Genetic Algorithm and Collision Index
+  authors:
+  - Won Yong Ha
+  - Leilei Cui
+  - Zhong-Ping Jiang
+  publisher: 2021 20th International Conference on Advanced Robotics (ICAR)
+  date: '2021-12-06'
+  link: https://doi.org/gq9dwt
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1109/LRA.2021.3100269
+  title: Learning-Based Balance Control of Wheel-Legged Robots
+  authors:
+  - Leilei Cui
+  - Shuai Wang
+  - Jingfan Zhang
+  - Dongsheng Zhang
+  - Jie Lai
+  - Yu Zheng
+  - Zhengyou Zhang
+  - Zhong-Ping Jiang
+  publisher: IEEE Robotics and Automation Letters
+  date: '2021-10-01'
+  link: https://doi.org/gsk3fv
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1109/TSMC.2019.2957992
+  title: Visual Servoing of a Flexible Aerial Refueling Boom With an Eye-in-Hand Camera
+  authors:
+  - Leilei Cui
+  - Hesheng Wang
+  - Xinwu Liang
+  - Jingchuan Wang
+  - Weidong Chen
+  publisher: 'IEEE Transactions on Systems, Man, and Cybernetics: Systems'
+  date: '2021-10-01'
+  link: https://doi.org/g98xnk
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1109/icra48506.2021.9561579
+  title: 'Balance Control of a Novel Wheel-legged Robot: Design and Experiments'
+  authors:
+  - Shuai Wang
+  - Leilei Cui
+  - Jingfan Zhang
+  - Jie Lai
+  - Dongsheng Zhang
+  - Ke Chen
+  - Yu Zheng
+  - Zhengyou Zhang
+  - Zhong-Ping Jiang
+  publisher: 2021 IEEE International Conference on Robotics and Automation (ICRA)
+  date: '2021-05-30'
+  link: https://doi.org/gsk33h
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.23919/acc50511.2021.9483388
+  title: Combined Longitudinal and Lateral Control of Autonomous Vehicles based on
+    Reinforcement Learning
+  authors:
+  - Leilei Cui
+  - Kaan Ozbay
+  - Zhong-Ping Jiang
+  publisher: 2021 American Control Conference (ACC)
+  date: '2021-05-25'
+  link: https://doi.org/gnj9zj
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1016/j.ifacol.2021.10.382
+  title: Learning-Based Control of Multiple Connected Vehicles in the Mixed Traffic
+    by Adaptive Dynamic Programming
+  authors:
+  - Tong Liu
+  - Leilei Cui
+  - Bo Pang
+  - Zhong-Ping Jiang
+  publisher: IFAC-PapersOnLine
+  date: '2021-01-01'
+  link: https://doi.org/g98xnm
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1007/978-3-030-60990-0_22
+  title: Robust Autonomous Driving with Human in the Loop
+  authors:
+  - Mengzhe Huang
+  - Zhong-Ping Jiang
+  - Michael Malisoff
+  - Leilei Cui
+  publisher: Studies in Systems, Decision and Control
+  date: '2021-01-01'
+  link: https://doi.org/g98xnp
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1109/iros45743.2020.9340949
+  title: Gain Scheduled Controller Design for Balancing an Autonomous Bicycle
+  authors:
+  - Shuai Wang
+  - Leilei Cui
+  - Jie Lai
+  - Sicheng Yang
+  - Xiangyu Chen
+  - Yu Zheng
+  - Zhengyou Zhang
+  - Zhong-Ping Jiang
+  publisher: 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    (IROS)
+  date: '2020-10-24'
+  link: https://doi.org/gt52nr
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1109/iros45743.2020.9341150
+  title: 'Nonlinear Balance Control of an Unmanned Bicycle: Design and Experiments'
+  authors:
+  - Leilei Cui
+  - Shuai Wang
+  - Jie Lai
+  - Xiangyu Chen
+  - Sicheng Yang
+  - Zhengyou Zhang
+  - Zhong-Ping Jiang
+  publisher: 2020 IEEE/RSJ International Conference on Intelligent Robots and Systems
+    (IROS)
+  date: '2020-10-24'
+  link: https://doi.org/gt52pc
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1016/j.robot.2019.103316
+  title: Trajectory planning of a spatial flexible manipulator for vibration suppression
+  authors:
+  - Leilei Cui
+  - Hesheng Wang
+  - Weidong Chen
+  publisher: Robotics and Autonomous Systems
+  date: '2020-01-01'
+  link: https://doi.org/gm5nqx
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1109/LCSYS.2018.2857512
+  title: Visual Servoing of a Flexible Gantry Crane With a Sway Range Constraint
+  authors:
+  - Leilei Cui
+  - Dongliang Zheng
+  publisher: IEEE Control Systems Letters
+  date: '2019-01-01'
+  link: https://doi.org/gp36hk
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
+- id: doi:10.1109/cac.2018.8623788
+  title: Control of Flexible Manipulator Based on Reinforcement Learning
+  authors:
+  - Leilei Cui
+  - Weidong Chen
+  - Hesheng Wang
+  - Jingchuan Wang
+  publisher: 2018 Chinese Automation Congress (CAC)
+  date: '2018-11-01'
+  link: https://doi.org/g98xnq
+  orcid: 0000-0001-8031-7638
+  leilei-cui: true
+  updated: 2025-11-02
+  plugin: orcid.py
+  file: orcid-leilei.yaml
 - doi: 10.1109/TCST.2025.3539216
   plugin: sources.py
   file: sources.yaml
