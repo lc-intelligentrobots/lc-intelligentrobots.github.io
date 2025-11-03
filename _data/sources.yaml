@@ -1,17 +1,23 @@
 - title: 'Learning-Based Control: Tools and Applications to Robotics'
-  date: '2024-06'
-  updated: '2024-06'
-  authors:
-    - Leilei Cui
-  publisher: ProQuest / New York University
-  link: https://www.proquest.com/openview/f63b8aefe3197f9c49b1333aa6cb0f18/1?pq-origsite=gscholar&cbl=18750&diss=y
+  remove: true
 
 - title: A Reinforcement Learning Look at Risk-Sensitive Linear Quadratic Gaussian Control
-  date: '2023-06'
-  updated: 2023-06
-  authors:
-  - Leilei Cui
-  - "Tamer Ba\u015Far"
-  - Zhong-Ping Jiang
+  remove: true
+  
+# - title: 'Learning-Based Control: Tools and Applications to Robotics'
+#   date: '2024-06'
+#   updated: '2024-06'
+#   authors:
+#     - Leilei Cui
+#   publisher: ProQuest / New York University
+#   link: https://www.proquest.com/openview/f63b8aefe3197f9c49b1333aa6cb0f18/1?pq-origsite=gscholar&cbl=18750&diss=y
+
+# - title: A Reinforcement Learning Look at Risk-Sensitive Linear Quadratic Gaussian Control
+#   date: '2023-06'
+#   updated: 2023-06
+#   authors:
+#   - Leilei Cui
+#   - "Tamer Ba\u015Far"
+#   - Zhong-Ping Jiang
 
   
