@@ -1,841 +1,209 @@
-<!DOCTYPE html>
-<html lang="en" data-dark="false">
-  <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <!--
-  put your analytics (e.g. Google Analytics) tracking code here
--->
-
-  <!--
-  put your search engine verification (e.g. Google Search Console) tag here
--->
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<title>Teaching | Learning and Control (LC) Lab</title>
-
-<link rel="icon" href="/images/icon.png">
-
-<meta name="title" content="Teaching">
-<meta name="description" content="By integrating reinforcement learning with control theory, we build intelligent robots that can operate safely and autonomously in complex, dynamic environments.">
-
-<meta property="og:title" content="Teaching">
-<meta property="og:site_title" content="Learning and Control (LC) Lab">
-<meta property="og:description" content="By integrating reinforcement learning with control theory, we build intelligent robots that can operate safely and autonomously in complex, dynamic environments.">
-<meta property="og:url" content="https://lc-lab25.github.io">
-<meta property="og:image" content="/images/share.jpg">
-<meta property="og:locale" content="en_US">
-
-<meta property="twitter:title" content="Teaching">
-<meta property="twitter:description" content="By integrating reinforcement learning with control theory, we build intelligent robots that can operate safely and autonomously in complex, dynamic environments.">
-<meta property="twitter:url" content="https://lc-lab25.github.io">
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:image" content="/images/share.jpg">
-
-
-  <meta property="og:type" content="website">
-
-
-<script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    
-      "@type": "WebSite",
-    
-    "name": "Teaching",
-    "description": "By integrating reinforcement learning with control theory, we build intelligent robots that can operate safely and autonomously in complex, dynamic environments.",
-    "headline": "Teaching",
-    "publisher": {
-      "@type": "Organization",
-      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
-    },
-    "url": "https://lc-lab25.github.io"
-  }
-</script>
-
-<link rel="alternate" type="application/rss+xml" href="https://lc-lab25.github.io/feed.xml">
-
-  <!-- Google Fonts -->
-<!-- automatically get url from fonts used in theme file -->
-
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?display=swap&&family=Barlow:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Roboto+Mono:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
-
-<!-- Font Awesome icons (load asynchronously due to size) -->
-
-<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
-<noscript>
-  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
-</noscript>
-
-  <!-- third party styles -->
-<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
-<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
-
-<!-- include all sass in styles folder -->
-
-
-  
-    <link href="/_styles/-theme.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/alert.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/all.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/anchor.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/background.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/body.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/bold.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/button.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/card.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/checkbox.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/citation.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/code.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/cols.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/dark-toggle.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/details.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/feature.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/figure.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/float.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/font.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/footer.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/form.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/grid.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/header.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/heading.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/highlight.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/icon.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/image.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/link.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/list.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/main.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/paragraph.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/portrait.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/post-excerpt.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/post-info.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/post-nav.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/quote.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/rule.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/search-box.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/search-info.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/section.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/table.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/tags.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/textbox.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/tooltip.css" rel="stylesheet">
-  
-
-  
-    <link href="/_styles/util.css" rel="stylesheet">
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-<!-- include all css in styles folder -->
-
-
-
-  <!-- third party scripts -->
-<script src="https://unpkg.com/@popperjs/core@2" defer></script>
-<script src="https://unpkg.com/tippy.js@6" defer></script>
-<script src="https://unpkg.com/mark.js@8" defer></script>
-
-<!-- include all js in scripts folder -->
-
-
-  <script src="/_scripts/anchors.js"></script>
-
-  <script src="/_scripts/dark-mode.js"></script>
-
-  <script src="/_scripts/fetch-tags.js"></script>
-
-  <script src="/_scripts/search.js"></script>
-
-  <script src="/_scripts/site-search.js"></script>
-
-  <script src="/_scripts/table-wrap.js"></script>
-
-  <script src="/_scripts/tooltip.js"></script>
-
-
-</head>
-
-  <body>
-    
-
-
-
-
-
-
-
-<header class="background" style="--image: url('/images/background.jpg')" data-dark="true">
-  <a href="/" class="home">
-    
-      <span class="logo">
-        
-          <img src="/images/logo.png" alt="logo">
-        
-      </span>
-    
-    
-      <span class="title-text" data-tooltip="Home">
-        
-          <span class="title">Learning and Control (LC) Lab</span>
-        
-        
-      </span>
-    
-  </a>
-
-  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
-
-  <nav>
-    
-    
-      
-        <a href="/projects/" data-tooltip="Software, datasets, and more">
-          Projects
-        </a>
-      
-    
-      
-        <a href="/publication/" data-tooltip="Published works">
-          Publication
-        </a>
-      
-    
-      
-        <a href="/team/" data-tooltip="About our team">
-          Team
-        </a>
-      
-    
-      
-        <a href="/teaching/" data-tooltip="Musings and miscellany">
-          Teaching
-        </a>
-      
-    
-      
-        <a href="/contact/" data-tooltip="Email, address, and location">
-          Contact
-        </a>
-      
-    
-  </nav>
-</header>
-
-    <main>
-      <!--
-  modify main content of page:
-  - add section breaks
-  - attach section properties
-  - filter out blank sections
--->
-
-
-
-
-
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <h1 id="teaching">
-<i class="icon fa-solid fa-feather-pointed"></i>Teaching</h1>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-  </section>
-
-  
-  
-  
-
-  <section class="background" data-size="page">
-    <!--
-  <background></background>
-  <dark></dark>
-  <size></size>
--->
-
-<div class="search-box">
-  <input type="text" class="search-input" oninput="onSearchInput(this)" placeholder="Search items on this page">
-  <button disabled data-tooltip="Clear search" aria-label="clear search" onclick="onSearchClear()">
-    <i class="icon fa-solid fa-magnifying-glass"></i>
-  </button>
-</div>
-
-<div class="tags">
-    
-      <a href="/teaching/?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
-        biology
-      </a>
-    
-      <a href="/teaching/?search=%22tag:%20medicine%22" class="tag" data-tooltip='Show items with the tag "medicine"'>
-        medicine
-      </a>
-    
-      <a href="/teaching/?search=%22tag:%20big-data%22" class="tag" data-tooltip='Show items with the tag "big-data"'>
-        big-data
-      </a>
-    
-  </div>
-
-<div class="search-info"></div>
-
-<h3 id="2023">2023</h3>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-      <a href="/2023/02/23/example-post-3.html" class="post-excerpt-image" aria-label="Example post 3">
-        <img src="/images/photo.jpg" alt="Example post 3" loading="lazy" onerror="this.src = '/images/fallback.svg'; this.onerror = null;">
-      </a>
-    
-
-    <div class="post-excerpt-text">
-      <a href="/2023/02/23/example-post-3.html">Example post 3</a>
-
-      <div class="post-info">
-  
-    
-    
-      
-      
-        <span data-tooltip="Author">
-          <i class="icon fa-solid fa-feather-pointed"></i>
-          <span>john-doe</span>
-        </span>
-      
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>February 23, 2023</span>
-    </span>
-  
-
-  
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>November 03, 2025</span>
-    </span>
-  
-</div>
-
-
-  
-
-
-  <div class="tags">
-    
-      <a href="/blog?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
-        biology
-      </a>
-    
-      <a href="/blog?search=%22tag:%20medicine%22" class="tag" data-tooltip='Show items with the tag "medicine"'>
-        medicine
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    </div>
-  </div>
-</div>
-
-<h3 id="2021">2021</h3>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-
-    <div class="post-excerpt-text">
-      <a href="/2021/09/30/example-post-2.html">Example post 2</a>
-
-      <div class="post-info">
-  
-    
-    
-      
-      
-        <span data-tooltip="Author">
-          <i class="icon fa-solid fa-feather-pointed"></i>
-          <span>jane-smith</span>
-        </span>
-      
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>September 30, 2021</span>
-    </span>
-  
-
-  
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>November 03, 2025</span>
-    </span>
-  
-</div>
-
-
-  
-
-
-
-
-
-
-      
-      
-      <p data-search="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    </div>
-  </div>
-</div>
-
-<h3 id="2019">2019</h3>
-
-<div class="post-excerpt-container">
-  <div class="post-excerpt">
-    
-    
-    
-
-    
-
-    <div class="post-excerpt-text">
-      <a href="/2019/01/07/example-post-1.html">Example post 1</a>
-
-      <div class="post-info">
-  
-    
-    
-      
-      
-        <span data-tooltip="Author">
-          <i class="icon fa-solid fa-feather-pointed"></i>
-          <span>sarah-johnson</span>
-        </span>
-      
-    
-  
-
-  
-  
-
-  
-    <span data-tooltip="Originally published on">
-      <i class="icon fa-regular fa-calendar"></i>
-      <span>January 07, 2019</span>
-    </span>
-  
-
-  
-    <span data-tooltip="Last updated on">
-      <i class="icon fa-solid fa-clock-rotate-left"></i>
-      <span>November 03, 2025</span>
-    </span>
-  
-</div>
-
-
-  
-
-
-  <div class="tags">
-    
-      <a href="/blog?search=%22tag:%20biology%22" class="tag" data-tooltip='Show items with the tag "biology"'>
-        biology
-      </a>
-    
-      <a href="/blog?search=%22tag:%20medicine%22" class="tag" data-tooltip='Show items with the tag "medicine"'>
-        medicine
-      </a>
-    
-      <a href="/blog?search=%22tag:%20big-data%22" class="tag" data-tooltip='Show items with the tag "big-data"'>
-        big-data
-      </a>
-    
-  </div>
-
-
-
-
-
-      
-      
-      <p data-search="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-
-      </p>
-    </div>
-  </div>
-</div>
-  </section>
-
-
-    </main>
-    
-
-
-<footer class="background" style="--image: url('/images/background.jpg')" data-dark="true" data-size="wide">
-  <!--
-    <div>
-      Extra details like contact info or address
-    </div>
-  -->
-
-  <div>
-    
-      
-      
-      
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="mailto:lcui@unm.edu" data-tooltip="Email" data-style="bare" aria-label="Email">
-      <i class="icon fa-solid fa-envelope"></i>
-      
-    </a>
-  </div>
-
-
-    
-      
-      
-      
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://orcid.org/0000-0001-8031-7638" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
-      <i class="icon fa-brands fa-orcid"></i>
-      
-    </a>
-  </div>
-
-
-    
-      
-      
-      
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://scholar.google.com/citations?user=RbczS_gAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
-      <i class="icon fa-brands fa-google"></i>
-      
-    </a>
-  </div>
-
-
-    
-      
-      
-      
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://github.com/lc-intelligentrobots" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
-      <i class="icon fa-brands fa-github"></i>
-      
-    </a>
-  </div>
-
-
-    
-      
-      
-      
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://twitter.com/larobot" data-tooltip="Twitter" data-style="bare" aria-label="Twitter">
-      <i class="icon fa-brands fa-twitter"></i>
-      
-    </a>
-  </div>
-
-
-    
-      
-      
-      
-
-
-
-  <div class="button-wrapper">
-    <a class="button" href="https://youtube.com/learningandcontrolforintellige" data-tooltip="YouTube" data-style="bare" aria-label="YouTube">
-      <i class="icon fa-brands fa-youtube"></i>
-      
-    </a>
-  </div>
-
-
-    
-  </div>
-
-  <div>
-    © 2025
-    Learning and Control (LC) Lab
-      |   Built with
-    <a href="https://github.com/greenelab/lab-website-template">
-      Lab Website Template
-    </a>
-  </div>
-
-  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
-</footer>
-
-  </body>
-</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body>
+<h1 id="learning-based-control-for-robotics-me461561">Learning-Based Control for Robotics (ME461/561)</h1>
+
+<p><strong>Semester:</strong> Fall 2025<br>
+<strong>Instructor:</strong> Dr. Leilei Cui · <strong>Email:</strong> <a href="mailto:lcui@unm.edu">lcui@unm.edu</a><br>
+<strong>Time:</strong> Tue &amp; Thu, 9:30–10:45 AM<br>
+<strong>Location:</strong> Science &amp; Math Learning Center B79</p>
+
+<hr>
+
+<h2 id="course-description">Course Description</h2>
+<p>Learning-based methods have achieved remarkable progress in robot control, with applications spanning autonomous driving, quadrupeds, and humanoids. At the core of these advances lie <strong>optimal control</strong> and <strong>reinforcement learning (RL)</strong>. This course develops the mathematical foundations of these methodologies and demonstrates how to apply them to real robotic systems. Topics range from core RL concepts to advanced algorithms (value/policy iteration, TD/Q-learning, actor–critic, DPG/DDPG, TRPO, PPO). The course emphasizes <strong>hands-on practice</strong> so you can use these tools in your own research.</p>
+
+<h2 id="course-goals">Course Goals</h2>
+<p>Build a solid foundation in reinforcement learning and show how RL integrates with control for robotics, strengthening modeling skills, algorithmic thinking, and data-driven decision-making.</p>
+
+<h2 id="student-learning-outcomes">Student Learning Outcomes</h2>
+<p>By the end of the course, you will be able to:</p>
+<ol>
+  <li>Explain key RL concepts: value/Q functions, Bellman equations, value/policy iteration.</li>
+  <li>Implement RL algorithms (DQN, DDPG, PPO).</li>
+  <li>Apply RL to robotic control tasks (e.g., drone flight).</li>
+  <li>Interpret RL from an optimal-control perspective.</li>
+</ol>
+
+<h2 id="prerequisites">Prerequisites</h2>
+<ul>
+  <li>Linear algebra, calculus, probability</li>
+  <li>Foundations of dynamics</li>
+  <li>Programming experience (Python)</li>
+</ul>
+
+<h2 id="course-materials">Course Materials</h2>
+<p>No required textbook. Lecture notes will be posted online. Additional readings will accompany each lecture.</p>
+
+<hr>
+
+<h2 id="assessments">Assessments</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: right">Assessment</th>
+      <th style="text-align: center">Weight</th>
+      <th>Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: right">Final Exam</td>
+      <td style="text-align: center">35%</td>
+      <td>Tue, Dec 9, 9:30–11:30 AM</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">Homework</td>
+      <td style="text-align: center">30%</td>
+      <td>2 writing assignments + 3 coding problems</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">Project</td>
+      <td style="text-align: center">30%</td>
+      <td>Final report (15%) + presentation (15%)</td>
+    </tr>
+    <tr>
+      <td style="text-align: right">Participation / Attendance</td>
+      <td style="text-align: center">5%</td>
+      <td>Up to 2 unexcused absences</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2 id="schedule-subject-to-change">Schedule (subject to change)</h2>
+
+<blockquote>
+  <p>Minor changes announced in class; major changes provided in writing.</p>
+</blockquote>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Week</th>
+      <th style="text-align: left">Dates</th>
+      <th style="text-align: left">Topics</th>
+      <th style="text-align: left">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">1</td>
+      <td style="text-align: left">8/19, 8/21</td>
+      <td style="text-align: left">Syllabus &amp; Introduction; Basic Concepts of RL</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2</td>
+      <td style="text-align: left">8/26, 8/28</td>
+      <td style="text-align: left">Bellman Equation; Bellman Optimality</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">3</td>
+      <td style="text-align: left">9/2, 9/4</td>
+      <td style="text-align: left">Value Iteration; VI from Optimal-Control Perspective</td>
+      <td style="text-align: left">HW1 announced (Tue)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">4</td>
+      <td style="text-align: left">9/9, 9/11</td>
+      <td style="text-align: left">Policy Iteration; PI from Optimal-Control Perspective</td>
+      <td style="text-align: left">HW1 due (Sun 11pm)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">5</td>
+      <td style="text-align: left">9/16, 9/18</td>
+      <td style="text-align: left">Monte Carlo Learning; Stochastic Approximation &amp; SGD</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">6</td>
+      <td style="text-align: left">9/23, 9/25</td>
+      <td style="text-align: left">Temporal-Difference Learning; Q-Learning</td>
+      <td style="text-align: left">HW2 announced (Tue)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">7</td>
+      <td style="text-align: left">9/30, 10/2</td>
+      <td style="text-align: left">Value Function Approximation; Deep Q-Learning (DQN)</td>
+      <td style="text-align: left">HW2 due (Sun 11pm)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">8</td>
+      <td style="text-align: left">10/7, <strong>10/9</strong>
+</td>
+      <td style="text-align: left">Robotic Application of DQN</td>
+      <td style="text-align: left">
+<strong>10/9 Fall Break</strong> · HW3 announced (Tue)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">9</td>
+      <td style="text-align: left">10/14, 10/16</td>
+      <td style="text-align: left">Policy-Gradient Methods; Monte Carlo PG</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">10</td>
+      <td style="text-align: left">10/21, 10/23</td>
+      <td style="text-align: left">Actor–Critic; Deterministic Policy Gradient (DPG)</td>
+      <td style="text-align: left">HW3 due (Sun 11pm)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">11</td>
+      <td style="text-align: left">10/28, 10/30</td>
+      <td style="text-align: left">Deep Deterministic Policy Gradient (DDPG); Robotic Applications</td>
+      <td style="text-align: left">HW4 announced (Tue)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">12</td>
+      <td style="text-align: left">11/4, 11/6</td>
+      <td style="text-align: left">Trust Region Policy Optimization (TRPO I &amp; II)</td>
+      <td style="text-align: left">HW4 due (Sun 11pm)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">13</td>
+      <td style="text-align: left">11/11, 11/13</td>
+      <td style="text-align: left">Robotic Application of TRPO; Proximal Policy Optimization (PPO)</td>
+      <td style="text-align: left"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">14</td>
+      <td style="text-align: left">11/18, 11/20</td>
+      <td style="text-align: left">Robotic Application of PPO (I &amp; II)</td>
+      <td style="text-align: left">HW5 announced (Tue)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">15</td>
+      <td style="text-align: left">11/25, <strong>11/27</strong>
+</td>
+      <td style="text-align: left">PG from Optimal-Control Perspective</td>
+      <td style="text-align: left"><strong>11/27 Thanksgiving Break</strong></td>
+    </tr>
+    <tr>
+      <td style="text-align: center">16</td>
+      <td style="text-align: left">12/2, 12/4</td>
+      <td style="text-align: left">Project Presentations</td>
+      <td style="text-align: left">HW5 due (Sun 11pm)</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">—</td>
+      <td style="text-align: left">12/8–12/12</td>
+      <td style="text-align: left">
+<strong>Final Exam</strong> (Tue, 9:30–11:30 AM)</td>
+      <td style="text-align: left">Project Report due Wed 11pm</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h2 id="office-hours">Office Hours</h2>
+<p><strong>Thu 10:45–11:30 AM</strong> · Mechanical Engineering Building, Room 435</p>
+
+<hr>
+
+<p><em>Last updated: November 03, 2025</em></p>
+
+</body></html>
