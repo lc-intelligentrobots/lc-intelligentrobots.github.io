@@ -27,7 +27,7 @@ https://ieeexplore.ieee.org/abstract/document/10120967), and [C1](
 https://doi.org/10.1137/1.9781611977745.3) for details.
 
 ## Applications to Robotics
-**Short blurb:** We apply the tools from reinforcement learning to the balance control of wheeled-bipedal robots, autonomous vehicles, and autonomous bicycles.
+**Short blurb:** We apply tools from two complementary fields—reinforcement learning and control—to wheeled-bipedal robots [J6](https://ieeexplore.ieee.org/abstract/document/9497675), autonomous vehicles [J7](https://ieeexplore.ieee.org/abstract/document/10880682), and autonomous bicycles [C2](https://ieeexplore.ieee.org/abstract/document/9341150).
 
 
 <div class="video-row">
