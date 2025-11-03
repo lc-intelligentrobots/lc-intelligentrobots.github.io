@@ -1,6 +1,7 @@
 - id: url:https://www.proquest.com/openview/f63b8aefe3197f9c49b1333aa6cb0f18/1?pq-origsite=gscholar&cbl=18750&diss=y
   title: "Learning-Based Control: Tools and Applications to Robotics"
   date: "2024-06"
+  year: 2024
   authors:
     - "Leilei Cui"
   publisher: "ProQuest / New York University"
@@ -9,6 +10,7 @@
 - id: url:https://proceedings.mlr.press/v211/cui23c.html
   title: "A Reinforcement Learning Look at Risk-Sensitive Linear Quadratic Gaussian Control"
   date: "2023-06"
+  year: 2023
   authors:
     - "Leilei Cui"
     - "Tamer Başar"

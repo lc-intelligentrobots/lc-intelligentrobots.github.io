@@ -507,6 +507,7 @@
   publisher: ProQuest / New York University
   date: ''
   link: https://www.proquest.com/openview/f63b8aefe3197f9c49b1333aa6cb0f18/1?pq-origsite=gscholar&cbl=18750&diss=y
+  year: 2024
   leilei-cui: true
   plugin: sources.py
   file: sources.yaml
@@ -520,6 +521,7 @@
   publisher: Proceedings of the 5th Annual Learning for Dynamics and Control Conference
   date: ''
   link: https://proceedings.mlr.press/v211/cui23c.html
+  year: 2023
   leilei-cui: true
   plugin: sources.py
   file: sources.yaml
