@@ -1,10 +1,10 @@
 ---
-name: John Doe
+name: Jason Lu
 image: images/photo.jpg
-role: phd
-group: alum
+role: ms
+affiliation: Department of Mechnical Engineering, University of New Mexico
 links:
-  github: john-doe
+  email: luj@unm.edu
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
