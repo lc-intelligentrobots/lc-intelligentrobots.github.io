@@ -36,12 +36,12 @@ Our research can be broadly organized into three parts: learning for control, co
 
 {% capture text %}
 
-Our teaching
+We offer courses in the areas of dynamics & control and robotics. 
 
 {%
   include button.html
-  link="projects"
-  text="Browse our projects"
+  link="teaching"
+  text="Browse our teaching"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -51,9 +51,9 @@ Our teaching
 
 {%
   include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
+  image="images/ME561.png"
+  link="teaching"
+  title="Our Teaching"
   flip=true
   style="bare"
   text=text
@@ -61,7 +61,7 @@ Our teaching
 
 {% capture text %}
 
-Team
+Our team includes researchers and graduate/undergraduate students passionate about learning and control and their applications to robotics.
 
 {%
   include button.html
@@ -76,7 +76,7 @@ Team
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/teams.jpg"
   link="team"
   title="Our Team"
   text=text
