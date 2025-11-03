@@ -1,5 +1,6 @@
 - title: 'Learning-Based Control: Tools and Applications to Robotics'
   date: '2024-06'
+  updated: '2024-06'
   authors:
     - Leilei Cui
   publisher: ProQuest / New York University
@@ -7,6 +8,7 @@
 
 - title: A Reinforcement Learning Look at Risk-Sensitive Linear Quadratic Gaussian Control
   date: '2023-06'
+  updated: 2023-06
   authors:
   - Leilei Cui
   - "Tamer Ba\u015Far"
