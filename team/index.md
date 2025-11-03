@@ -30,6 +30,6 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {% include figure.html image="images/photo.jpg" %}
 {% include figure.html image="images/photo.jpg" %} -->
 
-{% endcapture %}
+<!-- {% endcapture %}
 
-{% include grid.html style="square" content=content %}
+{% include grid.html style="square" content=content %} -->
