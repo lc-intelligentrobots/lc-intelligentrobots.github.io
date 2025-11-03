@@ -5,6 +5,6 @@
 
   # lc-intelligentrobots's Website
 
-  Visit **[lc-intelligentrobots.github.io](https://lc-intelligentrobots.github.io)** 🚀
+  Visit **[lc-intelligentrobots.github.io/lc-lab.io](https://lc-intelligentrobots.github.io/lc-lab.io)** 🚀
 
   _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
