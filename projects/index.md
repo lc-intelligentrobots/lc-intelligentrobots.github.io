@@ -14,8 +14,17 @@ Our work is organized into three areas: **Learning for Control**, **Control for 
 
 ## Control for Learning
 **Short blurb:** Many learning algorithms hinge on gradient-based methods—regression and classification, backpropagation, and policy gradients in reinforcement learning all rely on them. In data-driven settings, however, gradients are difficult to estimate accurately due to measurement noise, numerical error, and inexact subroutines. We address this by bringing control-theoretic ideas to learning, ensuring that gradient methods remain robust to these imperfections. 
-**Goal:** Treat gradient-based algorithms as dynamical systems and connect the Polyak–Łojasiewicz (PL) inequalities to the input-to-state stability (ISS) of gradient-based methods.
 
+**Goal:** Treat gradient-based algorithms as dynamical systems and connect the Polyak–Łojasiewicz (PL) inequalities to the input-to-state stability (ISS) of gradient-based methods. See references [J1](https://doi.org/10.1016/j.sysconle.2024.105804) [J2](
+https://doi.org/10.48550/arXiv.2507.02131), [J3](
+https://doi.org/10.48550/arXiv.2509.24277) and [J4](https://ieeexplore.ieee.org/document/10521710) for details.
+
+## Learning for Control
+**Short blurb:** Classical optimal control often assumes accurate system models, which are hard to obtain—and even when available, solving for the optimal controller can be intractable. We integrate reinforcement learning with optimal control to develop data-driven, adaptive methods that learn near-optimal controllers directly from interaction data, without requiring explicit model knowledge.
+
+**Goal:** Time-delay and output-feedback systems arise widely in connected and autonomous vehicles, communication networks, and robotics. We develop reinforcement learning algorithms for these two classes that guarantee algorithmic convergence and provide closed-loop stability and near-optimal performance. See references [J5](https://doi.org/10.1016/j.automatica.2024.111944) [J4](
+https://ieeexplore.ieee.org/abstract/document/10120967), and [C1](
+https://doi.org/10.1137/1.9781611977745.3) for details.
 
 ---
 <!-- 
