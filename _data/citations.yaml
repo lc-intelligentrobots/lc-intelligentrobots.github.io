@@ -141,7 +141,7 @@
   plugin: orcid.py
   file: orcid-leilei.yaml
 - title: 'Learning-Based Control: Tools and Applications to Robotics'
-  date: '2025-11-02'
+  date: '2025-11-03'
   orcid: 0000-0001-8031-7638
   leilei-cui: true
   updated: 2025-11-02
@@ -206,7 +206,7 @@
 - title: A Reinforcement Learning Look at Risk-Sensitive Linear Quadratic Gaussian
     Control
   publisher: Proceedings of The 5th Annual Learning for Dynamics and Control Conference
-  date: '2025-11-02'
+  date: '2025-11-03'
   link: https://proceedings.mlr.press/v211/cui23c.html
   orcid: 0000-0001-8031-7638
   leilei-cui: true
