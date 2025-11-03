@@ -13,19 +13,9 @@ Our work is organized into three areas: **Learning for Control**, **Control for 
 
 
 ## Control for Learning
-Short blurb: Many learning algorithms hinge on gradient-based methods—regression and classification, backpropagation, and policy gradients in reinforcement learning all rely on them. In data-driven settings, however, gradients are difficult to estimate accurately due to measurement noise, numerical error, and inexact subroutines. We address this by bringing control-theoretic ideas to learning, ensuring that gradient methods remain robust to these imperfections. 
+**Short blurb:** Many learning algorithms hinge on gradient-based methods—regression and classification, backpropagation, and policy gradients in reinforcement learning all rely on them. In data-driven settings, however, gradients are difficult to estimate accurately due to measurement noise, numerical error, and inexact subroutines. We address this by bringing control-theoretic ideas to learning, ensuring that gradient methods remain robust to these imperfections. 
+**Goal:** Treat gradient-based algorithms as dynamical systems and connect the Polyak–Łojasiewicz (PL) inequalities to the input-to-state stability (ISS) of gradient-based methods.
 
-### 1) [Gradient Methods under Deterministic Disturbances]
-- **Goal:** Treat gradient-based algorithms as dynamical systems and connect the Polyak–Łojasiewicz (PL) inequalities to the input-to-state stability (ISS) of gradient-based methods.
-- **Highlights:**
-  - Build PL-type inequalities with ISS: $\mathcal{K}_\infty$–PL $\Leftrightarrow$ ISS, $\mathcal{K}$–PL $\Leftrightarrow$ small-disturbance ISS, and $\mathcal{PD}$–PL $\Leftrightarrow$ integral ISS.
-  - Show that policy-gradient algorithms for LQR and gradient-descent methods for logistic regression are small-disturbance ISS.
-
-### 2) [Gradient Methods under Stochastic Disturbances]
-- **Goal:** Connect the Polyak–Łojasiewicz (PL) inequalities to the noise-to-state stability (NSS) of gradient-based methods.
-- **Highlights:**
-  - Build PL-type inequalities with NSS: $\mathcal{K}_\infty$–PL $\Leftrightarrow$ NSS, $\mathcal{K}$–PL $\Leftrightarrow$ small-covariance NSS, and $\mathcal{PD}$–PL $\Leftrightarrow$ integral NSS.
-  - Show that policy-gradient algorithms for LQR and gradient-descent methods for logistic regression are small-covariance ISS.
 
 ---
 <!-- 
