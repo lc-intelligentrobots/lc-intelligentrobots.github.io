@@ -7,11 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Publication
 
-There is an abundance of publicly available data about various biological systems, but it can be difficult to draw insight from individual datasets.
-Our lab develops algorithms that integrate these data to help model and understand complex biological systems.
-Doing this allows us to investigate many different biological conditions, including those with limited data, such as rare diseases.
-We recognize that our lab won't have all the answers, or even all of the questions, so we aim to develop tools and processes that any biologist can reuse.
-Our approach to research prioritizes transparency, rigor, and reproducibility.
+The Publications page highlights the scholarly output of the Learning and Control Lab. It showcases peer-reviewed journal articles, conference papers, and collaborative works that advance theory and applications at the intersection of reinforcement learning, control, and robotics.
 
 {% include section.html %}
 
