@@ -500,28 +500,26 @@
   updated: 2025-11-02
   plugin: orcid.py
   file: orcid-leilei.yaml
-- id: url:https://www.proquest.com/openview/f63b8aefe3197f9c49b1333aa6cb0f18/1?pq-origsite=gscholar&cbl=18750&diss=y
-  title: 'Learning-Based Control: Tools and Applications to Robotics'
+- title: 'Learning-Based Control: Tools and Applications to Robotics'
+  date: ''
+  year: 2024
   authors:
   - Leilei Cui
   publisher: ProQuest / New York University
-  date: ''
-  link: https://www.proquest.com/openview/f63b8aefe3197f9c49b1333aa6cb0f18/1?pq-origsite=gscholar&cbl=18750&diss=y
-  year: 2024
   leilei-cui: true
+  link: https://www.proquest.com/openview/f63b8aefe3197f9c49b1333aa6cb0f18/1?pq-origsite=gscholar&cbl=18750&diss=y
   plugin: sources.py
   file: sources.yaml
-- id: url:https://proceedings.mlr.press/v211/cui23c.html
-  title: A Reinforcement Learning Look at Risk-Sensitive Linear Quadratic Gaussian
+- title: A Reinforcement Learning Look at Risk-Sensitive Linear Quadratic Gaussian
     Control
+  date: ''
+  year: 2023
   authors:
   - Leilei Cui
   - "Tamer Ba\u015Far"
   - Zhong-Ping Jiang
   publisher: Proceedings of the 5th Annual Learning for Dynamics and Control Conference
-  date: ''
-  link: https://proceedings.mlr.press/v211/cui23c.html
-  year: 2023
   leilei-cui: true
+  link: https://proceedings.mlr.press/v211/cui23c.html
   plugin: sources.py
   file: sources.yaml
