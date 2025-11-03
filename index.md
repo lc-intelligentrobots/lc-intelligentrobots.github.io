@@ -76,7 +76,7 @@ Our team includes researchers and graduate/undergraduate students passionate abo
 
 {%
   include feature.html
-  image="images/teams.jpg"
+  image="images/teams.png"
   link="team"
   title="Our Team"
   text=text
