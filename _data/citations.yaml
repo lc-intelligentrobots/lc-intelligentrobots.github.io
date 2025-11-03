@@ -141,7 +141,7 @@
   plugin: orcid.py
   file: orcid-leilei.yaml
 - title: 'Learning-Based Control: Tools and Applications to Robotics'
-  date: '2025-11-03'
+  date: '2025-11-02'
   orcid: 0000-0001-8031-7638
   leilei-cui: true
   updated: 2025-11-02
@@ -206,7 +206,7 @@
 - title: A Reinforcement Learning Look at Risk-Sensitive Linear Quadratic Gaussian
     Control
   publisher: Proceedings of The 5th Annual Learning for Dynamics and Control Conference
-  date: '2025-11-03'
+  date: '2025-11-02'
   link: https://proceedings.mlr.press/v211/cui23c.html
   orcid: 0000-0001-8031-7638
   leilei-cui: true
@@ -517,22 +517,26 @@
   updated: 2025-11-02
   plugin: orcid.py
   file: orcid-leilei.yaml
-- title: A Reinforcement Learning Look at Risk-Sensitive Linear Quadratic Gaussian
+- id: url:https://proceedings.mlr.press/v211/cui23c.html
+  title: A Reinforcement Learning Look at Risk-Sensitive Linear Quadratic Gaussian
     Control
+  authors:
+  - Leilei Cui
+  - "Tamer Ba\u015Far"
+  - Zhong-Ping Jiang
   publisher: Proceedings of The 5th Annual Learning for Dynamics and Control Conference
   date: ''
   link: https://proceedings.mlr.press/v211/cui23c.html
-  orcid: 0000-0001-8031-7638
   leilei-cui: true
-  updated: 2023-11-02
   plugin: sources.py
   file: sources.yaml
-- title: 'Learning-Based Control: Tools and Applications to Robotics'
-  publisher: ProQuest
+- id: url:https://www.proquest.com/openview/f63b8aefe3197f9c49b1333aa6cb0f18/1?pq-origsite=gscholar&cbl=18750&diss=y
+  title: 'Learning-Based Control: Tools and Applications to Robotics'
+  authors:
+  - Leilei Cui
+  publisher: ProQuest / New York University
   date: ''
   link: https://www.proquest.com/openview/f63b8aefe3197f9c49b1333aa6cb0f18/1?pq-origsite=gscholar&cbl=18750&diss=y
-  orcid: 0000-0001-8031-7638
   leilei-cui: true
-  updated: 2025-11-02
   plugin: sources.py
   file: sources.yaml

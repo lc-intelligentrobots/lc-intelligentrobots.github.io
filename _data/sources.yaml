@@ -1,17 +1,16 @@
-- title: A Reinforcement Learning Look at Risk-Sensitive Linear Quadratic Gaussian
-    Control
+- id: url:https://proceedings.mlr.press/v211/cui23c.html
+  title: "A Reinforcement Learning Look at Risk-Sensitive Linear Quadratic Gaussian Control"
   authors:
-    - Leilei Cui
-    - "Tamer Ba\u015Far"
-    - Zhong-Ping Jiang
-  publisher: Proceedings of The 5th Annual Learning for Dynamics and Control Conference
+    - "Leilei Cui"
+    - "Tamer Başar"
+    - "Zhong-Ping Jiang"
   date: 2023-06
-  link: https://proceedings.mlr.press/v211/cui23c.html
+  leilei-cui: true
 
-- title: Learning-Based Control: Tools and Applications to Robotics
-  publisher: ProQuest
+- id: url:https://www.proquest.com/openview/f63b8aefe3197f9c49b1333aa6cb0f18/1?pq-origsite=gscholar&cbl=18750&diss=y
+  title: "Learning-Based Control: Tools and Applications to Robotics"
   authors:
-    - Leilei Cui    
+    - "Leilei Cui"
   date: 2024-05
-  link: https://www.proquest.com/openview/f63b8aefe3197f9c49b1333aa6cb0f18/1?pq-origsite=gscholar&cbl=18750&diss=y
-
+  publisher: "ProQuest / New York University"
+  leilei-cui: true
