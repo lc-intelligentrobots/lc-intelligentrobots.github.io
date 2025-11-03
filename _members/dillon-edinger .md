@@ -1,7 +1,7 @@
 ---
 name: Dillon Edinger
 image: images/photo.jpg
-role: phd
+role: ms
 affiliation: Department of Mechanical Engineering, University of New Mexico
 links:
   email: dedinger@unm.edu
