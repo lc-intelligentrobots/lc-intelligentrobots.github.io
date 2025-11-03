@@ -7,21 +7,22 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-wrench" %}Projects
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{% include tags.html tags="publication, resource, website" %}
-
-{% include search-info.html %}
+Our work is organized into three areas: **Learning for Control**, **Control for Learning**, and **Applications to Robotics**.
 
 {% include section.html %}
 
-## Featured
 
-{% include list.html component="card" data="projects" filter="group == 'featured'" %}
+## Control for Learning
+# Robustness of gradient methods under deterministic noise
 
-{% include section.html %}
+# Robustness of gradient methods under stochastic noise
 
-## More
 
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
+## Learning for Control
+
+
+
+
+## Applications to robotics
+
+
