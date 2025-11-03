@@ -29,20 +29,36 @@ https://doi.org/10.1137/1.9781611977745.3) for details.
 ## Applications to Robotics
 **Short blurb:** We apply the tools from reinforcement learning to the balance control of wheeled-bipedal robots, autonomous vehicles, and autonomous bicycles.
 
-<!-- MP4s -->
-<video controls playsinline style="max-width:100%; height:auto;">
-  <source src="{{ '/videos/WheeledBipedal.mp4' | relative_url }}" type="video/mp4">
-  Sorry, your browser can’t play this video.
-</video>
 
-<video controls playsinline style="max-width:100%; height:auto;">
-  <source src="{{ '/videos/Bicycle.mp4' | relative_url }}" type="video/mp4">
-  Sorry, your browser can’t play this video.
-</video>
+<div class="video-row">
+  <video class="media" controls playsinline>
+    <source src="{{ '/videos/WheeledBipedal.mp4' | relative_url }}" type="video/mp4">
+  </video>
 
-<!-- GIFs (use <img>, not <video>) -->
-<img src="{{ '/videos/AV1.gif' | relative_url }}" alt="AV1 demo" style="max-width:100%; height:auto;">
-<img src="{{ '/videos/AV2.gif' | relative_url }}" alt="AV2 demo" style="max-width:100%; height:auto;">
+  <video class="media" controls playsinline>
+    <source src="{{ '/videos/Bicycle.mp4' | relative_url }}" type="video/mp4">
+  </video>
+
+  <!-- For GIFs, use <img>. (Or convert to MP4 for consistency.) -->
+  <img class="media" src="{{ '/videos/AV1.gif' | relative_url }}" alt="AV1 demo">
+  <img class="media" src="{{ '/videos/AV2.gif' | relative_url }}" alt="AV2 demo">
+</div>
+
+<style>
+  .video-row { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+  /* uniform visual size */
+  .media {
+    width: 100%;
+    max-width: 560px;       /* set a consistent max width */
+    aspect-ratio: 16/9;     /* force same shape; needs modern browsers */
+    height: auto;
+    background: #000;       /* no white flash while loading */
+    object-fit: cover;      /* crop if aspect ratios differ */
+    border-radius: 8px;
+  }
+  /* If your theme is narrow, remove grid and stack or use repeat(1,1fr) on small screens */
+  @media (max-width: 700px) { .video-row { grid-template-columns: 1fr; } }
+</style>
 
 
 ---
