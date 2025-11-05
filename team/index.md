@@ -18,7 +18,7 @@ Our lab is a highly engaged and collaborative team of researchers. We believe th
 {% include list.html
    data="members"
    component="portrait"
-   filter="role == 'pi'"
+   filter="role == 'principal-investigator'"
 %}
 
 ### PhD Students
