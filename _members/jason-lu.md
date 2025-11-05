@@ -2,6 +2,7 @@
 name: Jason Lu
 image: images/photo.jpg
 role: ms
+order: 3
 affiliation: Department of Mechnical Engineering, University of New Mexico
 links:
   email: luj@unm.edu

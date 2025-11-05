@@ -3,6 +3,7 @@ name: Shubhankar Mondal
 image: images/SM.jpg
 role: phd
 affiliation: Department of Electrical and Computer Engineering, University of New Mexico
+order: 2
 aliases:
   - S. Mondal
   - S Mondal

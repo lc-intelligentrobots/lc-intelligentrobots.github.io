@@ -3,6 +3,7 @@ name: Leilei Cui
 image: images/CLL.jpg
 role: principal-investigator
 affiliation: Department of Mechanical Engineering, University of New Mexico
+order: 1
 aliases:
   - L. Cui
   - L Cui
