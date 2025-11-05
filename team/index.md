@@ -15,7 +15,6 @@ Our lab is a highly engaged and collaborative team of researchers. We believe th
 
 
 ### Principal Investigator
-{% include list.html data="members" component="portrait" filter="role == 'pi'" %}
 {% include list.html
    data="members"
    component="portrait"
