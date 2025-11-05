@@ -25,30 +25,30 @@ Our lab is a highly engaged and collaborative team of researchers. We believe th
 {% comment %}If you want section headings, keep these blocks; otherwise, skip to the "single grid" version below{% endcomment %} -->
 
 ### Principal Investigator
-<div class="people-grid">
-  {% for m in pi %}
-    {% include member-card.html member=m %}
-  {% endfor %}
-</div>
+{% include list.html
+   data="members"
+   component="portrait"
+   filter="current != false and role == 'pi'"
+%}
 
 ### PhD Students
-<div class="people-grid">
-  {% for m in phd %}
-    {% include member-card.html member=m %}
-  {% endfor %}
-</div>
+{% include list.html
+   data="members"
+   component="portrait"
+   filter="current != false and role == 'phd'"
+%}
 
 ### Master’s Students
-<div class="people-grid">
-  {% for m in ms %}
-    {% include member-card.html member=m %}
-  {% endfor %}
-</div>
+{% include list.html
+   data="members"
+   component="portrait"
+   filter="current != false and (role == 'ms' or role == 'master')"
+%}
 
 ### Undergraduate Students
-<div class="people-grid">
-  {% for m in ug %}
-    {% include member-card.html member=m %}
-  {% endfor %}
-</div>
+{% include list.html
+   data="members"
+   component="portrait"
+   filter="current != false and (role == 'ug' or role == 'undergrad')"
+%}
 
